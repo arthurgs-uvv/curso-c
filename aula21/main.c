@@ -5,9 +5,12 @@ int main(){
 
     double i = 10;
     unsigned short int u;
+    int a = 0;
 
-    printf("%i", sizeof(i));
-    printf("%i", sizeof(u));
-    
+    printf("%i\n", sizeof(i));
+    scanf("%i", &a);
+    printf("%i\n", sizeof(u));
+    printf("\n%i", a);
+
     return 0;
 }

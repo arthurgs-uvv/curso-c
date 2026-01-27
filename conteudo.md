@@ -53,9 +53,62 @@ long     -> aumentar a capacidade de armazenamento da nossa variável
 short    -> nos queremos diminuir o tamanho de armazenamento
 ```
 
+## Condições
+```
+if (condicao){
+    codigo 
+} else if (condicao 2){
+    codigo
+} else {
+    codigo
+}
+
+
+switch (expressao){
+    case(expressao):
+        break; //sai do switch
+    case(expressao):
+        break;
+    default:   //executada caso nenhuma expressao seja atendida ou caso não haja break
+}
+
+```
+
 ## Laços
 ```
-while (true){
-    loop até false
+while (condicao){   //loop q executa while a condicao for true
+    codigo
 }
+
+
+do{                 //loop q executa no minimo uma vez
+    codigo
+} while (condicao)
+
+
+for(variavel; condicao; incrementação){ //loop definido
+    codigo
+}
+
 ```
+
+## Operadores de Atribuição
+```
+x = x + 1;
+x++    : pós-incremento;
+++x    : pré-incremento;
+x += y : soma por y;
+-= : subtração;
+*= : multiplicação;
+/= : divisão;
+%= : resto da divisão;
+```
+
+## Alguns que não sei
+``` 
+sizeof(x) : retorna o tamanho da variável
+system("pause") : parar o programa
+system("cls") : limpar a tela
+getch() : recebe um unico caractere mas não mostra
+getche() : recebe um unico caractere mas mostra
+``` 
