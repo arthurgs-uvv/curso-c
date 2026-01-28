@@ -104,6 +104,20 @@ x += y : soma por y;
 %= : resto da divisão;
 ```
 
+## Associatividade de Operadores
+```
+/Associação da esquerda para direita
+1 - ()
+2 - *, /, %
+3 - +, -
+4 - <, <=, >, >=
+5 - ==, !=
+
+/Associação da direita para esquerda
+1 - ++, --
+2 - =, +=, -=, *=, /=, %=
+```
+
 ## Alguns que não sei
 ``` 
 sizeof(x) : retorna o tamanho da variável
