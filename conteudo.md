@@ -17,10 +17,10 @@ gcc main.c -o main
 
 ## Data types
 ```
-1- char  
-2- int  
-3- float  
-4- double  
+1- char             &c
+2- int              &i
+3- float            &f
+4- double           &lf
 5- void (vazio)  
 ```
 
@@ -90,6 +90,9 @@ for(variavel; condicao; incrementação){ //loop definido
     codigo
 }
 
+
+break;      //interrompe o for (sai dos ciclos)
+continue;   //interrompe o nosso laço
 ```
 
 ## Operadores de Atribuição
@@ -118,6 +121,15 @@ x += y : soma por y;
 2 - =, +=, -=, *=, /=, %=
 ```
 
+## Constantes
+Valores que não serão alterados.
+```
+#[comando] [nome_da_const] [valor] //antes do main
+Ex: #define x 8
+
+const [type] [name] = [valor];
+```
+
 ## Alguns que não sei
 ``` 
 sizeof(x) : retorna o tamanho da variável
@@ -126,3 +138,10 @@ system("cls") : limpar a tela
 getch() : recebe um unico caractere mas não mostra
 getche() : recebe um unico caractere mas mostra
 ``` 
+
+## Operação Ternária
+```
+([expressão]) ? [valorTrue] : [valorFalse];
+EX: x = (a==1) ? 1 :
+        (a==2) ? 2 : -1;
+```
